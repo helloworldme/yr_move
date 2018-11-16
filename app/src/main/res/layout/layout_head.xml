@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/btn_login_ground"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp">
+
+        <ImageView
+            android:id="@+id/tital_png"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_1"/>
+        <TextView
+            android:id="@+id/tv_tital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:text="XXXX"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

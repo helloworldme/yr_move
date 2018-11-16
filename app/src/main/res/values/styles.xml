@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. --> <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="BaseAppTheme"></style>
+    <!--&lt;!&ndash;为CircleImageView设置的自定义属性&ndash;&gt;-->
+    <!--<declare-styleable name="CircleCoolImageView">-->
+        <!--<attr name="border_width" format="dimension" />-->
+        <!--<attr name="border_color" format="color" />-->
+        <!--<attr name="border_overlay" format="boolean" />-->
+        <!--<attr name="civ_fill_color" format="color"/>-->
+    <!--</declare-styleable>-->
+    <style name="main_menu_animstyle">
+        <item name="android:windowEnterAnimation">@anim/photo_dialog_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/photo_dialog_out_anim</item>
+    </style>
+
+    <style name="transparentFrameWindowStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/photo_choose_bg</item>
+    </style>
+
+</resources>

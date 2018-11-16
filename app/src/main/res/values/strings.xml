@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="app_name">移动门户</string>
+    <string name="id">账号</string>
+    <string name="hint_id">请输入手机号</string>
+    <string name="pw">密码</string>
+    <string name="hint_pw">请输入密码</string>
+    <string name="forget">忘记密码</string>
+    <string name="login">登录</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Version</string>
+    <string name="opticol">Opticol</string>
+    <string name="symbol">Symbol</string>
+    <string name="honyware">Honyware</string>
+    <string name="se4500">Se4500</string>
+    <string name="title_activity_main">扫描头</string>
+    <string name="set_scanner_manager">连续模式</string>
+    <string name="scanner">扫描</string>
+    <string name="start">开始扫描</string>
+    <string name="close">停止扫描</string>
+    <string name="scanner_on">打开扫描电源</string>
+    <string name="scanner_off">关闭扫描电源</string>
+    <string name="scanner_keyboard_mode">键盘模式</string>
+    <string name="scanner_keyboard_output">键盘输出</string>
+    <string name="scanner_keyboard_output_summary">键盘输出扫描结果到焦点编辑框内</string>
+    <string name="scanner_beep">提示音</string>
+    <string name="scanner_beep_summary">扫描成功时播放声音</string>
+    <string name="scanner_vibrate">振动</string>
+    <string name="scanner_vibrate_summary">扫描成功时振动</string>
+    <string name="scanner_enter">附加回车键</string>
+    <string name="scanner_enter_summary">扫描结果后附加回车键</string>
+    <string name="scanner_lock">扫描按键</string>
+    <string name="scanner_lock_on">启用扫描按键</string>
+    <string name="scanner_lock_off">关闭扫描按键</string>
+    <string name="scanner_reset_def">重置扫描头</string>
+    <string name="scanner_reset_def_summary">扫描头出厂设置</string>
+    <string name="scanner_toast">扫描头重置完成!</string>
+    <string name="scanner_hint">对准条码，按设备上扫描键获取条码</string>
+    <!-- 材料入库-->
+    <string name="materials_in_id">外箱ID:</string>\
+    <string name="materials_in_user">操作者:</string>
+    <string name="materials_in_top">线别:</string>
+    <string name="materails_in_type">存储材料类型:</string>
+    <string name="materials_in_name">设备名称:</string>
+    <string name="materials_in_key">储位主键:</string>
+    <string name="materials_in_area">区域:</string>
+    <string name="materials_in_station">站别:</string>
+    <string name="materials_in_type_name">型名:</string>
+    <string name="sweep_record">扫描记录(0)</string>
+    <string name="put_storage">入库记录(0)</string>
+    <!-- 主页-->
+    <string name="product_in">成品入库</string>
+    <string name="product_quit">成品退库</string>
+    <string name="product_put">成品出库</string>
+    <string name="materails_in">材料入库</string>
+    <string name="materails_put">材料出库</string>
+    <string name="login_quit">退出登录</string>
+    <!-- 入库记录-->
+    <string name="put_storaget_num">内箱数量</string>
+    <string name="put_storaget_panel">panel数量</string>
+    <string name="put_storaget_remark">备注</string>
+
+
+
+
+
+
+</resources>
